@@ -20,7 +20,7 @@ const CFIP = process.env.CFIP || 'skk.moe';
 const CFPORT = process.env.CFPORT || 443;
 const NAME = process.env.NAME || 'Vls';
 const ARGO_PORT = process.env.ARGO_PORT || 18080;
-const PORT = process.env.SERVER_PORT || process.env.PORT || 25000;
+const PORT = process.env.SERVER_PORT || process.env.PORT || 7860;
 
 
 if (!fs.existsSync(FILE_PATH)) {
